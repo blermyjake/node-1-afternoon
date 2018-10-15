@@ -37,7 +37,7 @@ export default class Message extends Component {
       <div className="Message__container">
         <span className="Message__time">{time}</span>
         {
-          editting
+          editing
           ?
             <input className="Message__input" value={ this.state.text } onChange={ this.handleChange } onKeyPress={ this.edit } />
           :
